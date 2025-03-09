@@ -32,8 +32,8 @@ def insights(sector1: str, sector2: str, period: str):
     data = get_gemini_insight(sector1, sector2, period)
     return data
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # Data Collection & Correlation Analysis
 def fetch_sector_data(tickers, period="6mo"):
