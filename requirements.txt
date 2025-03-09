@@ -1,0 +1,10 @@
+fastapi
+pymongo
+requests
+streamlit
+pandas
+numpy
+yfinance
+plotly
+plotly.express
+scipy
