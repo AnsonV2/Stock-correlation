@@ -8,3 +8,4 @@ yfinance
 plotly
 plotly.express
 scipy
+uvicorn
